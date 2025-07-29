@@ -30,6 +30,3 @@ if __name__ == '__main__':
     if dbx:
         print("\nListing root folder contents:")
         list_folder_contents(dbx, "")  # List root
-        
-        print("\nListing contents of '/DesignMate' (if exists):")
-        list_folder_contents(dbx, "/DesignMate")  # List a specific folder 
